@@ -32,7 +32,7 @@ contract CoinFlip {
   }
 }
 
-contract Solver {
+contract Solution {
     CoinFlip contractAddress;
     uint256 blockValue;
     uint256 FACTOR;
