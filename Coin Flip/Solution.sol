@@ -38,8 +38,8 @@ contract Solution {
     uint256 FACTOR;
 
         
-    constructor() {
-        contractAddress = CoinFlip(0xd60433A133c3B501dEe86A73f2Ba185d29375d5E);
+    constructor(address _contractAddress) {
+        contractAddress = CoinFlip(_contractAddress);
         FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968;
 
               
